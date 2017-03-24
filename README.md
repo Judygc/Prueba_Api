@@ -2,7 +2,7 @@
 Mini aplicación con el API de ActiveCollab
 
 ## Installation
-...
+
 Inicie la consola de windows en la carpeta donde desee clonar el proyecto, para ello en el cuadro de dirección de carpetas escriba cmd.
 
 Escriba el siguiente comando

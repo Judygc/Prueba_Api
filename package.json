@@ -1,0 +1,73 @@
+{
+  "name": "react-redux-starterkit-webpack",
+  "version": "3.0.0",
+  "description": "Mini aplicación con el API de ActiveCollab",
+  "author": {
+    "name": "Judit García Castaño",
+    "email": "Judygc4844@gmail.com",
+    "url": ""
+  },
+  "files": [
+    "app/*"
+  ],
+  "main": "app/app.js",
+  "keywords": [
+    "react",
+    "redux",
+    "es6",
+    "boilerplate react redux",
+    "react redux starting kit",
+    "react-route redux",
+    "react tests",
+    "redux tests"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "react": "^15.3.1",
+    "react-bootstrap": "^0.30.3",
+    "react-data-grid": "^2.0.19",
+    "react-dom": "^15.3.1",
+    "react-fontawesome": "^1.5.0",
+    "react-redux": "^4.4.5",
+    "react-router": "^2.8.1",
+    "redux": "^3.6.0",
+    "redux-logger": "^2.6.1",
+    "redux-promise": "^0.5.3",
+    "redux-thunk": "^2.1.0",
+    "yeoman-generator": "^0.23.0",
+    "yosay": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-register": "^6.14.0",
+    "css-loader": "^0.25.0",
+    "eslint": "^3.1.1",
+    "eslint-config-xo-space": "^0.14.0",
+    "expect": "^1.20.2",
+    "express": "^4.14.0",
+    "mocha": "^3.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.2",
+    "webpack-dev-middleware": "^1.8.1",
+    "webpack-hot-middleware": "^2.12.2"
+  },
+  "eslintConfig": {
+    "extends": "xo-space",
+    "env": {
+      "mocha": true
+    }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --compilers js:babel-register --recursive",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": "vishnuvardhana/react-redux-starterkit-es2015",
+  "license": "MIT"
+}
